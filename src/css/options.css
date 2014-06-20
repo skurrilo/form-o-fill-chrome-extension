@@ -99,3 +99,31 @@ body {
   background-color: #bbb;
   padding: 2px 4px;
 }
+
+#imports input[type=url] {
+  line-height: 21px;
+  width: 98%;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon.icon-plus:before {
+  font-family: "icomoon";
+  font-size: 21px;
+  content: "\e606";
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  color: #ccc;
+  z-index: 1;
+}
+
+.icon input {
+  position: relative;
+  top: 0;
+  left: 0px;
+  padding-left: 23px;
+}
+
